@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/xjj2bhh.css");
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Universal Settings */
+
+/* Header/Navigatin Bar */
+
+.topnav {
+    background-color: #b1863b;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 50px;
+}
+
+.topnav a {
+    float: right;
+    color: #DBD7CF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav img {
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 50%;
+    background-color: #DBD7CF;
+    margin-left: 20px;
+}
+
+div .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* Body */
+
+html {
+    font-family: 'urbanist', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+
+/* Footer*/
+
+.bttm-footer {
+    background-color: #b1863b;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 50px;
+}
+
+.bttm-footer a {
+    float: right;
+    color: #DBD7CF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bttm-footer img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+
+.btn {
+    background-color: #DBD7CF;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-family: 'Roma',Times New Roman, Times, serif;
+}
+
+main div div a {
+    text-decoration: none;
+}
+main div div a:link {
+    color: #c2514c;
+}
+main div div a:visited {
+    color: #d5615b;
+}
+main div div a:hover {
+    color: #d5615b;
+}
+main div div a:active {
+    color: #9e423d;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 50px;
+}
+
+
+
+/* Home Page broad */
+
+
+.cta-container {
+    width: 100%;
+    font-size: 7rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+
+}
+
+
+body {
+    background-color: #716c63;
+}
+
+/* Member Log In Page */
+
+#loginpage {
+    background-image: url(../img/SalonChairresized.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    color: #DBD7CF;
+    font-size: 5rem;
+    padding-left: 200px;
+}
+
+main div img {
+    background-color: #DBD7CF;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+}
+
+main div div form input {
+    padding: 20px;
+    font-size: 3rem;
+}
+
+/*.loginbox img {
+    
+
+/* Artist Page*/
+
+/* filter by */
+
+
+.dropbtn {
+    background-color: #564e3e;
+    color: #DBD7CF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #494335;
+}
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url(../img/search-icon.png);
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #080808;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+
+/* sort by*/
+
+
+.dropbtn1 {
+    background-color: #564e3e;
+    color: #DBD7CF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn1:hover,
+.dropbtn1:focus {
+    background-color: #494335;
+}
+
+.sortby {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: #080808;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+
+
+/* Profiles */
+
+.flex-container {
+    background-color: #DBD7CF;
+    display: flex;
+    flex-direction: row;
+    max-height: 300px;
+    max-width: 960px;
+    margin: 50px auto;
+    border-style: solid;
+}
+
+.left-box {
+    width: 20%;
+    overflow: hidden;
+}
+
+.left-box img {
+    height: 100%;
+    width: auto;
+}
+
+.center-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 65%;
+    height: 250px;
+
+}
+
+.center-upper {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    text-align: right;
+}
+
+.center-upper h1,p {
+    justify-content: right;
+    margin-right: 30px;
+}
+
+.center-lower {
+    display: flex;
+    font-family: 'Roma' Times New Roman, Times, serif;
+    font-size: 4rem;
+    justify-content: space-between;
+    
+}
+
+.center-lower a {
+    text-decoration: none;
+}
+
+
+.center-lower img {
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+}
+
+.social-media {
+    margin-left: 30px;
+}
+
+.cta-btn {
+    background-color: #ac6a67;
+    padding: 2px 10px;
+    border-radius: 25px;
+    margin-right: 30px;
+    font-family: 'Roma', Times, serif;
+    font-size: 5rem;
+}
+
+.cta-btn a {
+    text-decoration: none;
+    color: #080808;
+}
+.cta-btn a:link {
+    color: #080808;
+}
+.cta-btn a:visited {
+    color: #635554;
+}
+.cta-btn a:hover {
+    color: #2b2b2b;
+}
+.cta-btn a:active {
+    color: #f8f5f5;
+}
+
+.right-box {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 15%;
+}
+
+.right-box ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.right-box ul li img {
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+}
